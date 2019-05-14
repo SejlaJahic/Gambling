@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Gambling</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/Style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<h1 style="font-size:2vw; color:White; font-family:Bahnschrift SemiLight"><a href="pocetna.aspx"><i class="fa fa-home"></i></a>&nbsp;GAMBLING <img src="Styles/userIcon.png"  alt="user" style="float:right" /></h1>
+</div>
+
+<div id="menu">
+<ul>
+<li><a href="pocetna.aspx">POČETNA</a></li>
+<li><a href="supertip.aspx">SUPERTIP</a></li>
+<li><a href="Liga.aspx">LIGA</a></li>
+<li><a href="Prvenstvo.aspx">PRVENSTVO</a></li>
+</ul>
+</div>
+
+<div id="ContentID">
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</div>
+
+<div id="footer">
+Copyright@Gambling2019
+</div>
+
+</div>
+</body>
+</html>
