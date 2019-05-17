@@ -19,22 +19,22 @@
 
 <div id="about" style="background-color:#333; clear:both;">
 
-<p style="color:white; float:left;">Gambling d.o.o je osnovano 2019 godine. <br />
+<p style="color:white; float:left; margin-right:100px;"><strong>O NAMA</strong><br />Gambling d.o.o je osnovano 2019 godine. <br />
 Gambling predstavlja sajt za online klađenje. <br />
-Login/Register možete izvršiti klikom na <img src="Styles/userIcon.png"  alt="user" /> ikonu <br />
+Login/Register možete izvršiti klikom na <a href="prijava.aspx"><i class="material-icons" style="float:right">person</i></a> ikonu <br />
 u gornjem desnom uglu. <br />
 Uplate na korisnički račun možete izvšiti u poslovnicama <br />
 u gradu Tuzli, lokaciju možete pronaći u nastavku:
 </p>
 
 
-<p style="color:white; float:left;">
+<p style="color:white; float:left;"><strong>KONTAKT</strong><br />
 Email: gambling@hotmail.com<br />
 Tel/Fax: 035/255-250
 </p>
 
 
-<p style="color:White; float:right;">
+<p style="color:White; float:right;"><strong>PODRŠKA</strong><br />
 Tehnička podrška korisnicima Vam <br />
 je na raspolaganju 0/24. <br />
 Za više informacija, pošaljite <br />

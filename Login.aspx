@@ -42,10 +42,17 @@
             height: 29px;
             text-align: justify;
         }
+        .auto-style1 {
+            width: 471px;
+        }
+        .auto-style2 {
+            width: 471px;
+            height: 29px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<div style="float:left; width: 646px;">
+    <div style="float:left; width: 646px;">
 <h3>REGISTRACIJA</h3>
     <table class="style9">
         <tr>
@@ -58,8 +65,6 @@
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
                     ControlToValidate="tbIme" ErrorMessage="Unesite ime!" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
-            <td class="style9">
-                &nbsp;</td>
         </tr>
         <tr>
             <td class="style14">
@@ -71,8 +76,6 @@
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
                     ControlToValidate="tbPrezime" ErrorMessage="Unesite prezime!" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
-            <td class="style9">
-            </td>
         </tr>
         <tr>
             <td class="style15">
@@ -83,10 +86,6 @@
             <td class="style13">
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" 
                     ControlToValidate="tbEmail" ErrorMessage="Unesite Email!" ForeColor="Red"></asp:RequiredFieldValidator>
-            </td>
-            <td class="style12">
-                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" 
-                    ControlToValidate="tbEmail" ErrorMessage="Email nije validan!" ForeColor="Red"></asp:RegularExpressionValidator>
             </td>
         </tr>
         <tr>
@@ -100,8 +99,6 @@
                     ControlToValidate="tbKorisnicko" ErrorMessage="Unesite korisničko!" 
                     ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
-            <td class="style9">
-                &nbsp;</td>
         </tr>
         <tr>
             <td class="style14">
@@ -113,25 +110,21 @@
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" 
                     ControlToValidate="tbPassword" ErrorMessage="Unesite password!" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
-            <td class="style9">
-                &nbsp;</td>
         </tr>
         <tr>
             <td class="style14">
-                &nbsp;</td>
+                &nbs&nbsp;</td>
             <td class="style16">
                 <input id="Reset1" type="reset" value="reset" /></td>
             <td class="style11">
-                <asp:Button ID="Button1" runat="server" Text="Registracija" Width="166px" />
+                <asp:Button ID="Button1" runat="server" Text="Registracija" Width="166px" OnClick="Button1_Click" />
             </td>
-            <td class="style9">
-                &nbsp;</td>
         </tr>
     </table>
  </div>
 
  <div style="float:right;">
- <h3>DRAGI KORISNICI</h3>
+ <h3>DRAGI KORISNICI></h3>
  <p>Prilikom registracije dobijate bonus <br />
  na Vašem računu u iznosu od: 10KM. <br />
  Za svaku treću uplatu na račun <br />

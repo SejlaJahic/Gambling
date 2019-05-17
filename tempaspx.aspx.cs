@@ -9,6 +9,12 @@ public partial class tempaspx : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        
+    }
 
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Session["New"] = null;
+        Response.Redirect("prijava.aspx");
     }
 }
