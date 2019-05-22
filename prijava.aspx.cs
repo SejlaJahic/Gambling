@@ -19,7 +19,7 @@ public partial class prijava : System.Web.UI.Page
         SqlConnection konekcija = new SqlConnection(ConfigurationManager.ConnectionStrings["UsersConnectionString"].ConnectionString);
         konekcija.Open();
 
-        string checkUser = "SELECT COUNT(*) FROM [Table] WHERE Ime='" + TextBox1.Text + "'";
+        string checkUser = "SELECT COUNT(*) FROM [Table] WHERE [Korisnicko]='" + TextBox1.Text + "'";
 
         SqlCommand komanda = new SqlCommand(checkUser, konekcija);
         
@@ -29,7 +29,7 @@ public partial class prijava : System.Web.UI.Page
         if (temp == 1)
         {
             konekcija.Open();
-            string checkPasswordQuery = "SELECT Pass FROM [Table] WHERE Ime='" + TextBox1.Text.Trim() + "'";
+            string checkPasswordQuery = "SELECT Pass FROM [Table] WHERE [Korisnicko]='" + TextBox1.Text.Trim() + "'";
             SqlCommand passCommand = new SqlCommand(checkPasswordQuery, konekcija);
             string pass = passCommand.ExecuteScalar().ToString();
             if (pass == TextBox2.Text)
