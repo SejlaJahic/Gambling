@@ -1,9 +1,16 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="pocetna.aspx.cs" Inherits="pocetna" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <style type="text/css">
+        .auto-style1 {
+            color: #CC0000;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-
+    <div style="text-align:right">
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        <asp:Button ID="Button1" runat="server" Text="Logout" OnClick="Button1_Click" /></div>
 <div id="novosti" style="float:left;">
 <h3>NOVOSTI</h3>
 <h4>UEFA IZBACUJE MANČESTER SITI IZ LIGE ŠAMPIONA!</h4>
@@ -19,10 +26,9 @@
 
 <div id="about" style="background-color:#333; clear:both;">
 
-<p style="color:white; float:left; margin-right:100px;"><strong>O NAMA</strong><br />Gambling d.o.o je osnovano 2019 godine. <br />
+<p style="color:white; float:left; margin-right:100px;" id="loganje"><strong>O NAMA</strong><br />Gambling d.o.o je osnovano 2019 godine. <br />
 Gambling predstavlja sajt za online klađenje. <br />
-Login/Register možete izvršiti klikom na <a href="prijava.aspx"><i class="material-icons" style="float:right">person</i></a> ikonu <br />
-u gornjem desnom uglu. <br />
+ 
 Uplate na korisnički račun možete izvšiti u poslovnicama <br />
 u gradu Tuzli, lokaciju možete pronaći u nastavku:
 </p>

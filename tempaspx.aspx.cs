@@ -15,6 +15,6 @@ public partial class tempaspx : System.Web.UI.Page
     protected void Button1_Click(object sender, EventArgs e)
     {
         Session["New"] = null;
-        Response.Redirect("prijava.aspx");
+        Response.Redirect("Start.aspx");
     }
 }

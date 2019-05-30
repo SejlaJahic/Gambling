@@ -10,17 +10,16 @@
     <link href="Styles/StyleSheet.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-
+   
 </head>
 <body>
 <div id="wrapper">
 <div id="header">
-<h1 style="font-size:2vw; color:White; font-family:Bahnschrift SemiLight"><a href="pocetna.aspx"><i class="material-icons" style="float:left">home</i></a>&nbsp;GAMBLING <a href="prijava.aspx"><i class="material-icons" style="float:right">person</i></a></h1>
-</div>
+<h1 style="font-size:2vw; color:White; font-family:Bahnschrift SemiLight"><a href="pocetna.aspx"><i class="material-icons" style="float:left">home</i></a>&nbsp;GAMBLING</h1></div>
 
-<div id="menu">
+<div id="menuP" runat="server">
 <ul>
-<li><a href="pocetna.aspx">POČETNA</a></li>
+<li ><a href="pocetna.aspx">POČETNA</a></li>
 <li><a href="supertip.aspx">SUPERTIP</a></li>
 <li><a href="Liga.aspx">LIGA</a></li>
 <li><a href="Prvenstvo.aspx">PRVENSTVO</a></li>

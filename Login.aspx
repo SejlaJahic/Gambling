@@ -121,10 +121,11 @@
             </td>
         </tr>
     </table>
+        <p>Nakon završene registracije, da biste pristupili menu bar, <br />molimo ulogujte se <a href="Start.aspx">ovdje!</a></p>
  </div>
 
  <div style="float:right;">
- <h3>DRAGI KORISNICI></h3>
+ <h3>DRAGI KORISNICI</h3>
  <p>Prilikom registracije dobijate bonus <br />
  na Vašem računu u iznosu od: 10KM. <br />
  Za svaku treću uplatu na račun <br />
